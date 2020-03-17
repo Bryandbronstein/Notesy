@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -10,7 +13,7 @@
 </head>
 <body>
 <?php
-require_once("db_connection.php");
+require_once("../database/db_connection.php");
 
 $db = new DBHandler();
 $conn = $db->getConnection();

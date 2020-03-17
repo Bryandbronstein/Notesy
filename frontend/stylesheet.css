@@ -1,7 +1,7 @@
 * {box-sizing: border-box;}
 
 html, body{
-	font-family: 'work_sansregular', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: #202021;
@@ -26,9 +26,10 @@ h2 {
 	}
 
 .bio {
+	font-style: italic;
 	margin-top: -40px;
-	margin-bottom: 50px;
-	font-size: 1.3rem;
+	margin-bottom: 40px;
+	font-size: 1.5rem;
 	text-align: center;
 	padding: 15px;
 	line-height: 2rem;
@@ -74,13 +75,14 @@ input {
  	width: 100%;
 	padding: 15px;
 	margin: 5px 0 22px 0;
-	border: none;
 	background: #302F2F;
 	color: white;
 	font-size: 1.1rem;
+	border: 2px solid transparent;
 }
 	input:focus {
-		border: 1px solid #2966BC;
+		border: 2px solid #2966BC;
+		background: #1a1818;
 	}
 
 	.idModalInput {
@@ -88,7 +90,7 @@ input {
 	}
 
 .btnArea {
-	width: 500px;
+	max-width: 500px;
 	margin: 0 auto;
 	margin-top: 20px;
 	display: flex;
@@ -101,11 +103,10 @@ input {
 	width: 150px;
 	height: 50px;
 	background: #2966BC;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	color: white;
 	border: none;
 	margin-bottom: 30px;
-	display: block;
 	transition: .2s;
 }
 	.signupBtn:hover {
@@ -119,7 +120,7 @@ input {
 	height: 50px;
 	background: #202021;
 	border: 2px solid #E82E44;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	color: #E82E44;
 	margin-bottom: 30px;
 	transition: .2s;
