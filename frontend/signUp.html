@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	 
+<title>Notesy Sign Up</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" />
+<script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+	<h2>Sign Up for Notesy</h2>
+
+
+	<p class="bio">Fill out the form below, then click on "Sign Up!"<br>to finish creating your account</p>
+
+<div class="form">
+
+	<form action="register.php" method="POST">
+
+		<label for="fname">First Name:</label>
+		<input type="text" placeholder="Enter your first name" name="fname" id="fname" required>
+
+		<label for="lname">Last Name:</label>
+		<input type="text" placeholder="Enter your last name" name="lname" id="lname" required>
+
+		<label for="user">Username:</label>
+		<input type="text" placeholder="example@gmail.com" name="user" id="user" required>
+
+		<label for="pass">Password:</label>
+		<input type="password" placeholder="Enter your password here" name="pass" id="pass" required>
+
+		<label for="college">College:</label>
+		<input type="text" placeholder="Example: New Jersey Institute of Technology" name="college" id="college" required>
+
+		<label for="major">Major:</label>
+		<input type="text" placeholder="Enter your current major" id="major" name="major" required>
+
+		<input style="margin: 0 auto;" type="submit" name="submit" value="Sign Up!" class="signupBtn" onclick="formValidateSignUp();">
+
+	</form>
+</div>
+
+
+</body>
+</html>

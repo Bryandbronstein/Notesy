@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Notesy</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" href="webfontkit-20200317-104117/stylesheetFont.css" type="text/css" charset="utf-8" />
+	<link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+
+	<h2>Notesy</h2>
+	<p class="bio">A note taking web app that actually works!<br>Login below or click "Sign Up!"<br>to create a free account</p>
+
+	<div class="form">
+
+		<form action="home.php" method="POST">
+
+			<label for="user">Username:</label>
+			<input type="text" placeholder="example@gmail.com" name="user" id="user" required>
+
+			<label for="pass">Password:</label>
+			<input type="password" placeholder="Enter your password here" name="pass" id="pass" required>
+
+			<div class="btnArea">
+				<button type="submit"class="loginBtn" onclick="formValidateLogIn();">Log In</button>
+				<button type="button" class="signupBtn" onclick="window.location.href='signUp.html'">Sign Up!</button>
+			</div>
+		</form>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
